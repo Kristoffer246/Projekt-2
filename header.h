@@ -15,7 +15,6 @@ void receiveEvent(int howMany);
 class X10ProtoSlave {
 public:
     X10ProtoSlave(int slaveDevice = ALARMADDRESS);
-    void sendChar(char Char);
     char readChar();
 private:
     // Tilføj eventuelle private medlemmer her
